@@ -1,8 +1,8 @@
 /*ESTABLISH A BASELINE FOR THE ENTIRE SITE*/
 body {
     font-family: 'Crimson Text', serif;
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 24px;
+    line-height: 36px;
     color: #FDFFEF;
 }
 #header {
@@ -36,32 +36,33 @@ h1, h2 {
     text-shadow: 8px 2px #0F0E11;
 }
 #work {
-    height: 900px;
+    border-top: 2px dashed black;
     background-color: #737373;
-    padding: 10px 0;
+    padding: 40px 0;
     overflow: auto;
 }
 #second-work {
-    height: 900px;
     background-color: #737373;
-    padding: 10px 0;
+    padding: 40px 0;
     overflow: auto;
-}
-.work-section {
-    height: 200px;
 }
 #about {
-    height: 950px;
-    clear: both;
     overflow: auto;
-    text-align: center;
+    text-align: left;
     background-color: #737373;
 }
+#about h2 {
+    padding: 2%;
+}
+#about p {
+    padding: 2%;
+    line-height: 40px;
+}
 #contact {
-    height: 250px;
+    border-top: 2px dashed black;
+    border-bottom: 2px dashed black;
     background-color: #781046;
     text-align: center;
-    padding: 3% 0 0 0;
 }
 #contact nav {
     padding: 0.5px 0;
@@ -81,17 +82,29 @@ h1, h2 {
     max-width: 100%;
     width: auto;
 }
-.half-width {
-    max-width: 50%;
-    float: left;
-    text-align: center;
+.work-section {
+    width: 50%;
+    margin: 5% auto;
+    border-top: 2px solid black;
 }
-.half-width img {
-    height: 200px;
+#work img {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+}
+#about {
+    border-top: 2px dashed black;
+    padding: 10% 0;
+}
+#about h2 {
+    text-decoration: underline;
+}
+#about h2, #about p {
+    width: 50%;
+    margin: 0 auto;
 }
 #about img {
-    height: 250px;
-    width: 200px;
+    width: 20%;
     border-radius: 50%;
     display: block;
     margin: 0 auto;
